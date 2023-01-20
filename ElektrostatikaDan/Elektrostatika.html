@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Webpage</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">    
+  </head>
+  <body>
+    <header>
+      <h1>Elektrostatika</h1>
+      <h2>Václav Dlabač 3.T</h2>
+    </header>
+    <section id="section1">
+      <FONT COLOR="white">
+      <h3>Elektrostatické pole</h3>
+      <p>Elektrostatické pole - existuje kolem všech elektricky nabitých těles. Tato tělesa na sebe
+        vzájemně jeho prostřednictvím působí.</p></FONT>
+    </section>
+    <section id="section2">
+      <FONT COLOR="black">
+      <h3>Elektrostatický náboj</h3>
+      <p><b>Elektrický náboj - dva významy:</b><br>a ) vyjadřuje stav elektricky nabitých těles
+        <br>                           b ) je skalární fyzikální veličina (Q.[Q]= C(coulomb))
+        <br>  <b>Vlastnosti el . náboje:</b> 
+        <br>                    1 ) Lze jej přemístit v tělese i z jednoho tělesa na druhé
+        <br>                    2 ) Existují dva druhy náboje - kladný a záporný
+        <br>                    3 ) Je dělitelný (nejmenší - elementární náboj e = 1,602.10 - ¹9 C)
+        <br>                    4 ) Základní nosiče el. náboje: protony a elektrony
+        <br>                    5 ) Atomy - navenek neutrální částice, v nichž počet + e
+                                v protonech jádra je shodný s počtem -e v elektronech obalu
+        <br>                    6 ) Ionty - kladné, záporné
+        <br>                    7 ) Elektrování těles - jev přemísťování volných elektronů
+                                z jednoho tělesa na druhé a vznik těles elektricky nabitých
+        <br>                    8 ) Tělesa souhlasně nabitá na sebe působí odpudivými el. silami,
+                                tělesa nesouhlasně nabitá přitažlivými el. silami.</p></FONT>
+    </section>
+    <section id="section3">
+      <FONT COLOR="white">
+      <h3>Columbův Zákon</h3>
+      <p>Coulombův zákon : Dva bodové náboje v klidu na sebe vzájemně působí stejně velkými
+        opačně orientovanými elektrickými silami , jejichž velikost je přímo úměrná součinu obou
+        nábojů a nepřímo úměrná druhé mocnině jejich vzdálenosti:
+      
+        <br> <img src="images/columbuv.zakon.png" alt="columbuv zakon">
+      
+      </p></FONT>
+    </section>
+    <section id="section4">
+      <h3>Příklady</h3>
+
+      <p><b>Charakterizujte elektrický náboj, Coulombův zákon a elektrické pole.</b>
+        <br><button onclick="myFunction()">Zobrazit řešení01</button>
+        <div id="myDIV">
+          Řešení: Elektrický náboj Q je skalární fyzikální veličina, která charakterizuje vlastnost těles (částic) vstupovat do elektromagnetické interakce.
+          <br> <img src="images/příklad01.png" alt="řešení01">
+        </div>
+
+
+
+      <br><b>Dvě malé kuličky, jedna má náboj Q1 = 40 nC, druhá Q2 = 80 nC, jsou umístěny vedle sebe ve vzdálenosti 1cm. Jakými velkými silami na sebe kuličky působí pokud jsou:
+        
+        <br>a.) ve vzduchu (εr = 1)
+        <br>b.) v petroleji (εr = 2,1)
+        <br>c.) ve vodě (εr = 81)  k = 9.109N.m2.C-2
+      </b>
+      <br> 
+      <button onclick="myFunction2()">Zobrazit řešení02</button>
+      <div id="myDIV2">
+        Řešení: Elektrický náboj Q je skalární fyzikální veličina, která charakterizuje vlastnost těles (částic) vstupovat do elektromagnetické interakce.
+        <br> <img src="images/příklad02.png" alt="řešení02">
+      </div>  
+
+
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myDIV");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        function myFunction2() {
+          var x = document.getElementById("myDIV2");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+        <br>
+      </p>
+    </section>
+    <footer>
+      <p>Copyright ©2022 My Webpage</p>
+    </footer>
+  </body>
+</html>
